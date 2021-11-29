@@ -1,0 +1,65 @@
+.card {
+    width: 100%;
+    position: relative;
+}
+
+.card__image img{
+    width: 100%;
+    display: block;
+}
+
+.card__info {
+    background: #F4F5F7;
+    padding: 16px 16px 30px;
+}
+.card__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3A3A3A;
+    padding-bottom: 8px;
+}
+.card__desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    padding-bottom: 8px;
+}
+.card__prices {
+    display: flex;
+}
+.card__price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3A3A3A;
+    padding-right: 16px;
+}
+.card__price_old {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration-line: line-through;
+    color: #B0B0B0;
+}
+
+.card__bage {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.card__bage_sale {
+    background-color: #E97171;
+}
+.card__bage_new {
+    background-color: #2EC1AC;
+}
